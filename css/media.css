@@ -1,0 +1,128 @@
+
+
+
+@media screen and (max-width: 1180px){
+    .header .navbar-nav.mr-auto{
+        margin-left: 0;
+    }
+    .course-offering .box ul li{
+        margin-right: 0;
+    }
+    .memorable button{
+        margin-top: 0;
+    }
+    .memorable .ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header{
+        top: -75px;
+    }
+}
+
+
+
+@media screen and (max-width: 1070px){
+    .parallax-bg h2{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 985px){
+    .header .main-logo{
+        width: 150px;
+    }
+    .header .navbar-nav.mr-auto{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header .nav-item .nav-link{
+        padding: 8px 20px;
+        margin: 5px 0;
+    }
+    .header .main-nav .icon{
+        position: absolute;
+        top: 25px;
+        right: 100px;
+    }
+    .kid-education .box{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .course-offering .box{
+        margin: 15px 0;
+    }
+    .course-offering .heading-text img{
+        display: none;
+    }
+    .counting-up .box{
+        margin: 25px 0;
+    }
+    .event-news .box{
+        display: flex;
+    }
+    .event-news .down-arrow{
+        bottom: -50px;
+    }
+    .recent-news {
+        margin-top: 70px;
+    }
+}
+
+
+
+@media screen and (max-width: 763px){
+    .parallax-bg{
+        height: 35em;
+    }
+    .destination .image{
+        margin-top: 40px;
+    }
+    .memorable .ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header{
+        width: 100%;
+    }
+    .team .box .text{
+        margin-top: 22px;
+        padding-left: 10px;
+    }
+    .event-news .recent-news .box .text {
+        margin: 25px 0;
+        padding-left: 10px;
+    }
+    .footer-nav p{
+        margin-top: 15px;
+        float: left;
+    }
+}
+
+
+
+@media screen and (max-width: 584px){
+    .destination .scroll-imge {
+        width: 21%;
+    }
+    .memorable .content .box .hover h6 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-weight: 700;
+    }
+    .memorable .content .box .hover ul{
+        bottom: 20px;
+    }
+    .memorable .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+        padding: 10px;
+    }
+    .ui-tabs .ui-tabs-panel{
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 358px){
+    .memorable .content .box .hover h6{
+        top: 40%;
+    }
+    .event-news .event::before{
+        top: 130px;
+        height: 84%;
+    }
+}
